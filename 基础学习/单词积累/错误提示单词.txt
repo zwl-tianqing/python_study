@@ -1,0 +1,7 @@
+print : 打印
+defind : 定义
+syntaxError : 语法错误
+NameError : 名字错误
+Invalid : 无效的
+Character : 字符
+Directory : 文件夹 or 目录

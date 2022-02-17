@@ -1,0 +1,7 @@
+Help 帮助
+Function 函数
+Built-ip(builtins) 内置
+Module 模块
+Value 值
+Stream 流
+Default 默认的
