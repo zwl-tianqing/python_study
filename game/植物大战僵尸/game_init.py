@@ -4,10 +4,10 @@
 # 导入包
 import pygame
 import sys
+
 from modules.game_state.game_state import Game_State
 from modules.game_music.music import Music
 from modules.plant.peashooter import Peashooter
-
 
 class Game_Init:
 
