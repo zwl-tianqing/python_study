@@ -6,24 +6,24 @@
 
 * print()
   
-  > 使用 print 进行输出打印
+> 使用 print 进行输出打印
   
-    ```python
-    # 你好 ，世界。学习语言的第一步
-    print("hello word")
-    ```
+```python
+# 你好 ，世界。学习语言的第一步
+print("hello word")
+```
 
 * print 打印多个变量
 
-  > print 打印多个变量使用逗号隔开
-  >
-  > print(a,b)
+> print 打印多个变量使用逗号隔开
+>
+> print(a,b)
 
 * print函数中参数的含义
 
-  > print（var,.....,sep=" ")
-  >
-  > sep 表示打印变量之间的分隔符，默认使用空格
+> print（var,.....,sep=" ")
+>
+> sep 表示打印变量之间的分隔符，默认使用空格
 
 
 ### 2 格式化输出
@@ -82,4 +82,23 @@ age = 18
 
 # 输出数据
 print(f'我的名字是{name}, 今年{age} 岁')
+```
+
+### 3 转义字符
+
+* `\n`: 换行
+* `\t`: 制表符，一个 tab 键（4个字符）的距离
+
+```python
+print("hello\nwold")
+print("\thello")
+```
+
+### 4 结束符
+
+> 想一想，为什么两个print会换行
+
+```python
+# print 函数中有个 end 的参数，这个参数默认值为 \n 换行字符
+print('内容',end="\n")
 ```

@@ -1,4 +1,4 @@
-[toc]
+c[toc]
 
 ## python 简介
 
